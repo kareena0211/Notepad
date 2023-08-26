@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+#addBtn{
+    position: fixed;
+    right: 10px;
+    right: 10px;
+    background-color: #daa520;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.note{
+    /* border: solid #daa520; */
+    height: 400px;
+    width: 400px;
+    background-color: #fab1a0;
+    margin: 15px;
+    margin-top: 60px;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    margin: 0 129px 0 0;
+    font-size: 20px;
+}
+
+.tool{
+    background-color: #daa520;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.tool i{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.note textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+}
